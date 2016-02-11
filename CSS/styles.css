@@ -1,0 +1,390 @@
+body {
+    box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, a, li {
+    font-family: 'Muli', sans-serif !important;
+}
+
+.wrapper {
+    min-height: 100vh;
+}
+
+
+/*----------
+navbar
+-----------*/
+
+.header {
+    height:auto;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav-links {
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    margin-right:3%;
+    font-weight: bold;
+    color:#97111c;
+}
+
+.nav-links a {
+    color:#97111c;
+}
+
+.head-mobile {
+    font-size:1.8em;
+    color: black;
+    font-weight: bold;
+    margin-bottom:20px;
+    text-transform: uppercase;
+}
+
+#main-logo {
+    width:385px;
+    height:211px;
+    margin-right: auto;
+    margin-left:20px;
+}
+
+.nav-pills {
+    font-size:1.3em;
+}
+
+.nav-links a:hover {
+    background: none !important;
+}
+
+#active {
+    color:black;
+    font-weight: bold;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropA {
+   color:#97111c !important;
+}
+
+.dropA:hover {
+    background:none !important;
+    color:black !important;
+}
+
+
+/*----------
+carousel
+-----------*/
+
+.carousel {
+    height:auto;
+    width:auto;
+    background:white !important;
+    margin-top:25px;
+}
+
+.carousel-control {
+  background: none !important;
+}
+
+/*----------
+index-support
+-----------*/
+
+.support-index {
+    margin: 25px auto 0 auto;
+    width:90%;
+}
+
+.support-index img {
+    margin-top:25px;
+    margin-bottom:25px;
+}
+
+/*----------
+about-mission
+-----------*/
+
+#about-mission-main {
+    width:80%;
+    margin:80px auto 100px;
+}
+
+#about-mission-main h1 {
+    color:black;
+    font-size:2.2em;
+    font-weight: bold;
+}
+
+#about-mission-main p {
+    color:black;
+    font-size:1.5em;
+    font-weight: 300;
+}
+
+
+/*--------------
+about-history
+--------------*/
+
+.about-history {
+    text-align: center;
+    margin-top:50px;
+    width:90%;
+    margin:50px auto 0;
+}
+
+.about-history h1 {
+    margin-bottom:30px;
+    font-weight: bold;
+}
+
+.about-history p {
+    line-height:2;
+}
+
+#mission-pic {
+    width:100%;
+    height:50%;
+}
+
+.about-hr {
+    border-width: 2px;
+    margin-top:-20px;
+}
+
+/*--------------
+about-why-PSC
+--------------*/
+
+
+.about-whyPSC h2 {
+    font-weight: 300;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.about-whyPSC h1 {
+    font-size:2.5em;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.about-whyPSC p, .about-whyPSC ul {
+    margin-bottom:25px;   
+}
+
+
+/*--------------
+prod-page
+---------------*/
+
+.prod-page li {
+    list-style-type: none;
+    margin-bottom:4px;
+    font-weight: 500;
+    font-size:1.1em;
+}
+
+.prod-page h1 {
+    font-weight: bold;
+    font-size:2.7em;
+    margin-bottom: 25px;
+}
+
+
+/*----------
+team css
+-----------*/
+
+.team strong {
+    font-size:1.1em;
+}
+
+.team a {
+    color:black;
+}
+
+.team a:hover {
+    color:#97111c;
+    text-decoration: none;
+}
+
+.team {
+    margin-top:35px;
+}
+
+.disclaimer {
+    text-align: center;
+    margin-top:40px;
+    font-weight: bold;
+    color:#97111c;
+}
+
+/*----------
+team-ind-bio
+-----------*/
+
+.team-ind-bio {
+    width:90%;
+    margin:0 auto;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+.team-ind-bio h1 {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.team-ind-bio h3 {
+    font-size:1.3em;
+    font-weight: bold;
+}
+
+.workHx {
+    color:gray;
+    font-weight: bold;
+    font-size:1.1em;
+}
+
+/*----------
+territories
+-----------*/
+
+#territories h3 {
+    font-size:1.4em;
+    text-align: center;
+    font-weight: bold;
+    margin:0 auto 30px auto;
+    width:80%;
+}
+
+#territories {
+    margin-top:50px;
+}
+
+#MO {
+    width:80%;
+    height:auto;
+    margin:0 auto;
+    display:block;
+}
+
+/*----------
+form/contact
+-----------*/
+
+.contact-page {
+    margin-top:25px;
+}
+
+.forms-label {
+    color:#97111c;
+}
+
+#form-name {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+
+.contact h4 {
+    font-weight: bold;
+    color:#97111c;
+}
+
+.contact a {
+    text-decoration: none;
+    color:inherit
+}
+
+.contact a:hover {
+    font-weight: bold;
+}
+
+/*----------
+footer
+-----------*/
+
+#footer {
+    text-align:center;
+    height:40px;
+    min-height: calc(100vh-40px);
+}
+
+
+.btn-contact {
+    padding:8px 25px;
+    display:block;
+    background: black;
+    color:white;
+    box-shadow: none;
+    text-shadow: none;
+    border:none;
+    border-radius: 0;
+}
+
+.btn-contact:hover {
+    background-color: #333333;
+    color:white;
+    transition: background-color 0.25s;
+}
+
+
+
+/*--------------
+media queries
+--------------*/
+
+@media (min-width:550px) {
+    
+    .header {
+        justify-content: space-around;
+    }
+    
+    .nav-links {
+        flex-direction: row;
+    }
+    
+
+}
+    
+
+@media (min-width:674px) {
+    
+    #about-mission-main h1 {
+        color:black;
+        font-size:3em;
+        font-weight: 400;
+    }
+
+    #about-mission-main p {
+        color:black;
+        font-size:2.2em;
+        font-weight: 100;
+    }
+
+    .team-ind-bio h1 {
+        font-size: 2.5em;
+        font-weight: bold;
+    }
+
+    .team-ind-bio h3 {
+        font-size:1.8em;
+        font-weight: bold;
+    }
+
+    .workHx {
+        color:gray;
+        font-weight: bold;
+        font-size:1.3em;
+}}
